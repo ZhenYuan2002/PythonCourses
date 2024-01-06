@@ -1,2 +1,2 @@
 # Python-Projects
-All my python projects till date
+Projects done from courses
