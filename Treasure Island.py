@@ -23,7 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-
+#My Solution
 firstdecision = input('You\'re at a crossroad. Where do you want to go? Type "left" or "right"')
 if firstdecision == "left":
     seconddecision = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.')
@@ -41,7 +41,7 @@ if firstdecision != "left":
     print('You fell into a hole. Game over.')
 
 
-#Alternative answer:
+#Course Solution:
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
@@ -64,7 +64,7 @@ else:
   print("You fell into a hole. Game Over.")
 
 
-
+#Links:https://ascii.co.uk/art
 
 
 
