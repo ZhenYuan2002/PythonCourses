@@ -38,8 +38,32 @@ elif size == 'L' and extra_cheese == 'Y' and add_pepperoni == 'N':
 elif size == 'L' and extra_cheese == 'N' and add_pepperoni == 'N':
     print('The final bill for your pizza is $25')
 
-
-else:
-    print('Sorry, please choose a valid option')
-
 print("Thank you for choosing Python Pizza Deliveries!")
+
+
+
+#Course Answer
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input()  # What size pizza do you want? "S", "M", or "L"
+add_pepperoni = input()  # Do you want pepperoni? "Y" or "N"
+extra_cheese = input()  # Do you want extra cheese? "Y" or "N"
+
+# Your code below this line 👇
+bill = 0
+if size == "S":
+  bill += 15
+elif size == "M":
+  bill += 20
+else:
+  bill += 25
+
+if add_pepperoni == "Y":
+  if size == "S":
+    bill += 2
+  else:
+    bill += 3
+
+if extra_cheese == "Y":
+  bill += 1
+
+print(f"Your final bill is: ${bill}.")
