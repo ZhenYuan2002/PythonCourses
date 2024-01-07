@@ -14,10 +14,17 @@ if BMI < 18.5:
 if BMI >= 18.5 and BMI < 25:
     print(f'Your BMI is {BMI}, which is in the normal weight range')
 if BMI >= 25 and BMI <30:
-    print('Your BMI is {} which puts you in the slightly overweight category'.format(BMI))
+    print('Your BMI is {}, which puts you in the slightly overweight category'.format(BMI))
 if BMI >= 30 and BMI < 35:
     print(f'Your BMI is {BMI}, which puts you in the obese category')
 if BMI >=35:
     print(f'Your BMI is {BMI}, which puts you in the clinically obese category')
 
-#Example Output, given that the person's height is 1.75 and weight is 82KG
+#Example Output, given that a person's height is 1.75 and weight is 82KG:
+Enter your height in meters
+1.78
+Enter your weight in kg
+82
+Your BMI is 25.88, which puts you in the slightly overweight category
+
+
