@@ -1,4 +1,5 @@
 Shows all my Python Projects done via courses individually
+The further down the the items on the list, the more complex the projects are
 1) Tip Calculator
 2) BMI Calculator
 3) Leap Year Identifier
@@ -13,4 +14,4 @@ Shows all my Python Projects done via courses individually
 12) Fizzbuzz
 13) Strong Password Generator with fixed sequence
 14) Strong Password Generator with random sequence
-
+15) Guess the number
